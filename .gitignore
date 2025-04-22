@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 # Cursor-related
 .cursor/
 .cursor
 .cursor.json
+=======
+# Environment variables
+.env
+.env.*
+!.env.example
+>>>>>>> f467076664c1708fafb2764d4309d1cf9ec0737a
 
 # Python
 __pycache__/
@@ -9,7 +16,6 @@ __pycache__/
 *$py.class
 *.so
 .Python
-env/
 build/
 develop-eggs/
 dist/
@@ -27,6 +33,7 @@ wheels/
 *.egg
 
 # Virtual Environment
+<<<<<<< HEAD
 venv/
 ENV/
 
@@ -42,18 +49,25 @@ ENV/
 *.log
 
 # Virtual environments
+=======
+>>>>>>> f467076664c1708fafb2764d4309d1cf9ec0737a
 venv/
 ENV/
 env/
+.env/
 
-# IDE specific files
+# IDE
 .idea/
 .vscode/
 *.swp
 *.swo
 
-# Streamlit specific
+# Streamlit
 .streamlit/secrets.toml
+
+# System
+.DS_Store
+Thumbs.db
 
 # Logs
 *.log 
