@@ -1,7 +1,7 @@
-# Environment variables and secrets
-.env
-.env.local
-*.env
+# Cursor-related
+.cursor/
+.cursor
+.cursor.json
 
 # Python
 __pycache__/
@@ -21,9 +21,25 @@ lib64/
 parts/
 sdist/
 var/
+wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+
+# Virtual Environment
+venv/
+ENV/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+.DS_Store
+*.log
 
 # Virtual environments
 venv/
@@ -35,7 +51,6 @@ env/
 .vscode/
 *.swp
 *.swo
-.DS_Store
 
 # Streamlit specific
 .streamlit/secrets.toml

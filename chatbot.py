@@ -49,7 +49,7 @@ def chat_with_grok():
             
             # Request payload
             payload = {
-                "model": "llama3-8b-8192",  # Using Groq's Llama3 model
+                "model": "llama3-8b-8192",  # Using Groq's LLama3 model
                 "messages": messages,
                 "temperature": 0.7
             }
