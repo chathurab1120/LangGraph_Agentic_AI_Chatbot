@@ -1,14 +1,7 @@
-<<<<<<< HEAD
 # Cursor-related
 .cursor/
 .cursor
 .cursor.json
-=======
-# Environment variables
-.env
-.env.*
-!.env.example
->>>>>>> f467076664c1708fafb2764d4309d1cf9ec0737a
 
 # Python
 __pycache__/
@@ -33,28 +26,15 @@ wheels/
 *.egg
 
 # Virtual Environment
-<<<<<<< HEAD
-venv/
-ENV/
-
-# Environment variables
-.env
-
-# IDE
-.vscode/
-.idea/
-
-# Misc
-.DS_Store
-*.log
-
-# Virtual environments
-=======
->>>>>>> f467076664c1708fafb2764d4309d1cf9ec0737a
 venv/
 ENV/
 env/
 .env/
+
+# Environment variables
+.env
+.env.*
+!.env.example
 
 # IDE
 .idea/
